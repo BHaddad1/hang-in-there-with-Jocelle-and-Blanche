@@ -164,13 +164,15 @@ function goBackToMainSaved(){
   mainPoster.classList.remove('hidden');
 }
 
-function createNewPoster(getRandomIndexArray){
-  return new Poster (three arguments here)
-}
+// function createNewPoster(getRandomIndexArray){
+//   return new Poster (three arguments here)
+// }
 
 
 function displayRandomPoster() {
-  newTitle.innerText = current
+  newImage.src = getRandomIndex(images)
+  newTitle.innerText = getRandomIndex(titles)
+  newQuote.innerText = getRandomIndex(quotes)
 
 
 //   }
